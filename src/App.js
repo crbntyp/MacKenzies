@@ -15,7 +15,11 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Banner />
+      <Banner 
+        heading="Truck Delights"
+        subHeading="Helping all of Scotland truck safely"
+        buttonText="Find out how"
+      />
       <Home />
       <Services />
       <Footer />

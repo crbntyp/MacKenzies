@@ -1,11 +1,16 @@
 import React from 'react'
 
+import Icon from '../icon/Icon'
+
 const Telephone = ({
   number,
-  icon
+  icon,
+  type
 }) => {
   return (
-    <div>{icon}{number}</div>
+    <a href={`tel:${number}`}>
+      <Icon type={type} icon={icon} /> {number}
+    </a>
   )
 }
 

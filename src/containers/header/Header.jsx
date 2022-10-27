@@ -7,7 +7,7 @@ const Header = () => {
     <header style={{'display': 'flex'}}>
       <Logo />
       <MainNav />
-      <Telephone icon="" number="028 90 564 009" />
+      <Telephone type="las" icon="phone-square" number="028 90 564 009" />
     </header>
   )
 }

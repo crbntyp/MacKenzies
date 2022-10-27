@@ -1,8 +1,23 @@
 import React from 'react'
 
-const Banner = () => {
+import Button from '../button/Button'
+
+const Banner = ({
+  heading,
+  subHeading,
+  buttonText
+}) => {
   return (
-    <div>Banner</div>
+    <section className='banner'>
+      <artice>
+        <h1>{heading}</h1>
+        <p>{subHeading}</p>
+        <Button 
+          text={buttonText} 
+          buttonOnClick={() => alert('clicked')} 
+        />
+      </artice>
+    </section>
   )
 }
 
