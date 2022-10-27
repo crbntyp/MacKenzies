@@ -7,7 +7,7 @@ const Button = ({
   buttonOnClick
 }) => {
   return (
-    <button className={`btn btn-${context} ${size ? `btn-${size}` : ''}`} onClick={buttonOnClick}>
+    <button className={`btn btn--${context} ${size ? `btn--${size}` : ''}`} onClick={buttonOnClick}>
       {text}
     </button>
   )

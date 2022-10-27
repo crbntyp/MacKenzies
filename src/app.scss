@@ -1,13 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 @import '../node_modules/line-awesome/dist/line-awesome/scss/line-awesome.scss';
 
-$green: #009688;
+$white: #fff;
+$black: #000;
+$primary: #009688;
 
-body{
-  padding: 0;
-  margin: 0;
+*{
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
 
+body{
+  padding: 0;
+  margin: 0;
+}
+
+input, textarea, select{
+  font-family: 'Montserrat', sans-serif;
+}
+
+@import './components/button/button.scss';
 @import './components/nav/mainNav.scss';
+
+@import './containers/header/header.scss';
